@@ -1,0 +1,30 @@
+{
+  "name": "reading-log",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal reading stopwatch: start and stop from the phone, the Mac (Raycast), Siri or Alexa, and see how much you read.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d-uartepereira/reading-log.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "dev": "node scripts/init-config.mjs && wrangler d1 migrations apply reading_log --local && wrangler dev",
+    "deploy": "node scripts/check-config.mjs && wrangler d1 migrations apply reading_log --remote && wrangler deploy",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "smoke": "bash scripts/smoke.sh",
+    "make-icon": "node scripts/make-icon.mjs"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261109.1",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4",
+    "wrangler": "^4.159.0"
+  }
+}

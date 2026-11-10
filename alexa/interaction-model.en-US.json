@@ -1,0 +1,94 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "reading log",
+      "intents": [
+        {
+          "name": "StartReadingIntent",
+          "slots": [],
+          "samples": [
+            "start",
+            "start reading",
+            "begin",
+            "begin reading",
+            "i am reading",
+            "i'm reading",
+            "i started reading",
+            "start the timer",
+            "log reading"
+          ]
+        },
+        {
+          "name": "StopReadingIntent",
+          "slots": [],
+          "samples": [
+            "stop reading",
+            "i finished reading",
+            "i'm done reading",
+            "i am done",
+            "finish",
+            "finish reading",
+            "end reading",
+            "stop the timer"
+          ]
+        },
+        {
+          "name": "StatusIntent",
+          "slots": [],
+          "samples": [
+            "status",
+            "how long have i read",
+            "how long have i read today",
+            "how long am i reading",
+            "how much did i read today"
+          ]
+        },
+        {
+          "name": "WeeklySummaryIntent",
+          "slots": [],
+          "samples": [
+            "how was my week",
+            "weekly summary",
+            "what is my average",
+            "my reading average",
+            "how much did i read this week",
+            "summary"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}

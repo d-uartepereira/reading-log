@@ -1,0 +1,5 @@
+node_modules/
+.wrangler/
+.dev.vars
+# Your own deploy config (made from wrangler.example.toml)
+wrangler.toml

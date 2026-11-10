@@ -1,0 +1,104 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "registro de leitura",
+      "intents": [
+        {
+          "name": "StartReadingIntent",
+          "slots": [],
+          "samples": [
+            "começar",
+            "começa",
+            "começar leitura",
+            "começar a ler",
+            "iniciar",
+            "iniciar leitura",
+            "inicia a leitura",
+            "vou ler",
+            "vou começar a ler",
+            "comecei a ler",
+            "começa a contar",
+            "liga o cronômetro",
+            "marcar leitura"
+          ]
+        },
+        {
+          "name": "StopReadingIntent",
+          "slots": [],
+          "samples": [
+            "parar leitura",
+            "para a leitura",
+            "parar de ler",
+            "terminei",
+            "terminei de ler",
+            "acabei de ler",
+            "finalizar",
+            "finalizar leitura",
+            "encerrar leitura",
+            "desliga o cronômetro",
+            "para o cronômetro"
+          ]
+        },
+        {
+          "name": "StatusIntent",
+          "slots": [],
+          "samples": [
+            "status",
+            "quanto tempo eu li",
+            "quanto tempo eu li hoje",
+            "há quanto tempo estou lendo",
+            "quanto tempo estou lendo",
+            "como está a leitura",
+            "quanto eu li hoje"
+          ]
+        },
+        {
+          "name": "WeeklySummaryIntent",
+          "slots": [],
+          "samples": [
+            "como foi minha semana",
+            "resumo da semana",
+            "quanto eu li na semana",
+            "qual a minha média",
+            "minha média de leitura",
+            "quanto eu li nos últimos sete dias",
+            "resumo"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
